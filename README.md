@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# COVID Data Hub | MODULE-III
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Covid-data is simple application being built in our third module of our curriculum at microverse, where we build a web application which provides a list of countires with COVID summary. The Details page shows the detailed COVID data of each country selected.
 
-## Available Scripts
+### Features implemented so far are:
 
-In the project directory, you can run:
+- Responsive HTML page
+- Set up a React app.
+- Use React documentation.
+- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React Router.
+- Connect React and Redux.
+- Handle events in a React app.
+- Write unit tests with React Testing Library.
+- Use styles in a React app.
+- Use React life cycle methods.
+- Apply React best practices and language style guides in code.
+- Use store, actions and reducers in React.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- REACT
+- REDUX
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+- Webpack (A JavaScript module bundler)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple example steps.
 
-### `npm test`
+[Github-page live](https://L2oukmane.github.io/covid-19-data)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+The basic requirements for building the executable are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Cloning the project
 
-### `npm run eject`
+```
+git clone https://github.com/L2oukmane/covid-19-data.git <Your-Build-Directory>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### To get all package modules required to build the project run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Building
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run build
+```
 
-## Learn More
+### Running
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Unit-Testing
 
-### Code Splitting
+You can find all of the unit test for testing all components in the src/**Test** folder located in the parent source directory of the project. you can create your own custom unit test and test it by running
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm run test
+```
 
-### Analyzing the Bundle Size
+##### from parent source directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting packages and debuging with ESlint
 
-### Making a Progressive Web App
+```
+ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##### For validation detection using Stylelint Run
 
-### Advanced Configuration
+```
+npx eslint .
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##### from parent source directory
 
-### Deployment
+### Create React App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+npx create-react-app my-app
+cd my-app
+npm start
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### from parent source directory
+
+## License
+
+All source code files are licensed under the permissive zlib license
+(http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
+
+## Author
+
+- **Loukmane Oustani** - [github](https://github.com/L2oukmane), [linkedin](www.linkedin.com/in/loukmaneoustani), [twitter](https://twitter.com/LoukmaneOustani)
+
+## 📝 License
+
+This project is [MIT](https://github.com/L2oukmane/Bookstore/blob/react/redux/LICENSE.md) licensed.
