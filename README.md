@@ -29,6 +29,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
+[Github-page live](https://L2oukmane.github.io/covid-19-data)
+
 ### Prerequisites
 
 The basic requirements for building the executable are:
