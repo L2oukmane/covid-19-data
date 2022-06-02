@@ -5,7 +5,7 @@
 ## screen shots
 
 ![screenshot](/screenshots/screen1.png)
-![screenshot](/screenshots/screen2.png)
+!![screenshot](/screenshots/screen2.png)
 
 ### Features implemented so far are:
 
