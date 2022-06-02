@@ -2,6 +2,11 @@
 
 > Covid-data is simple application being built in our third module of our curriculum at microverse, where we build a web application which provides a list of countires with COVID summary. The Details page shows the detailed COVID data of each country selected.
 
+## screen shots
+
+![screenshot](/screenshots/screen1.png)
+![screenshot](/screenshots/screen2.png)
+
 ### Features implemented so far are:
 
 - Responsive HTML page
