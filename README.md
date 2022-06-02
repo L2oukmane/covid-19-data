@@ -39,6 +39,10 @@ The basic requirements for building the executable are:
 - VSCode or any other equivalent code editor
 - Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
+#### Acknowledgments
+
+- Inspired by original design for Creative Commons by Nelson Sakwa on [Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
+
 # Getting Started
 
 #### Cloning the project
